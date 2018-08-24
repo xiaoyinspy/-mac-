@@ -26,7 +26,76 @@
     text-align: left;
     margin-left: 20px;
 }
+.auto-hide {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #E7E9EC;
+}
+.inner {
+    width: 1200px;
+}
+.example-vertical-track {
+    background-color: transparent;
+    width: 10px;
+    transition: opacity 0.3s;
+}
 
+.example-horizontal-track {
+    background-color: transparent;
+    height: 10px;
+    transition: opacity 0.3s;
+}
+
+.example-vertical-handler {
+    width: 8px;
+    right: 1px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+}
+.example-vertical-track {
+    background-color: transparent;
+    width: 10px;
+    transition: opacity 0.3s;
+}
+
+.example-horizontal-track {
+    background-color: transparent;
+    height: 10px;
+    transition: opacity 0.3s;
+}
+
+.example-vertical-handler {
+    width: 8px;
+    right: 1px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+}
+.example-vertical-handler:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.example-horizontal-handler {
+    height: 8px;
+    bottom: 1px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+}
+.example-horizontal-handler:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.example-horizontal-handler {
+    height: 8px;
+    bottom: 1px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+}
+.example-horizontal-handler:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
